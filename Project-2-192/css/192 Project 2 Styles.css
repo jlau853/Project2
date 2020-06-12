@@ -160,9 +160,15 @@ h2{
 }
 
 
+.change{
+	text-align: right;
+	float: right;
+	color: black;
+	background-color: lightblue;
+	
+}
 
 
-/* CSS rule for displaying images in a single line, centered, and with customized dimensions */
 img {
 	display: block;
 	margin: 0px auto;
