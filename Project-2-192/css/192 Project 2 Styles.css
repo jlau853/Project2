@@ -9,17 +9,26 @@ html {background-color: lightgrey;
 	background-size: cover;		
 }
 
-/* CSS rule for container displaying header information */
 #header {	
 	max-width: 900px;
 	margin: 0 ;    
-	padding: 250px;	
-	
-	
+	padding: 250px;
+
+}
+.searchbar{
+	float: right;
+	text-align: right; 
+	padding: 0;
+	margin-top: 16px;
+	margin-right: 24px;
+	border: solid black;
+
+
 	
 }
 
-/* CSS rule for displaying main heading with larger font */
+
+
 h1 {
 	font-size: 700%;
 	color: slategray;
@@ -28,11 +37,12 @@ h1 {
 
 }
 
-/* CSS rule for displaying introduction text boldfaced and with larger font */
+
 #intro {
 	font-weight: bold;	
 	font-size: 500%;
 	color: black;
+	
 }
 #final {
 	font-weight: bold;	
@@ -150,6 +160,7 @@ h2{
 	border-bottom: 3px solid black
 	
 }
+
 
 
 
