@@ -1,0 +1,108 @@
+html {background-color: lightgrey}
+#header-image {
+	height: 100%;
+	background-image: url("../images/overhead1.jpg");	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;		
+}
+
+/* CSS rule for container displaying header information */
+#header {	
+	max-width: 900px;
+	margin: 0 ;    
+	padding: 250px;	
+	
+	
+	
+}
+
+/* CSS rule for displaying main heading with larger font */
+h1 {
+	font-size: 700%;
+	color: slategray;
+
+}
+
+/* CSS rule for displaying introduction text boldfaced and with larger font */
+#intro {
+	font-weight: bold;	
+	font-size: 500%;
+	color: black;
+}
+#final {
+	font-weight: bold;	
+	font-size: 400%;
+	color: black;
+}
+#logo {
+	font-weight: bold;	
+	font-size: 400%;
+	color: darkblue;
+}
+
+
+.description{
+	font-size: 500%;
+	color: black;
+}
+/* CSS rule for centering text inside a block element*/
+.center {
+	text-align: center;
+	
+}
+h2{
+	text-align: center;
+	font-size:200%;
+	
+}
+
+/* CSS rule for container displaying all content centered */
+#content {
+	max-width: 900px;
+	margin: 0 auto;
+}	
+
+/* CSS rule for displaying lines items with a border at the bottom */
+
+.leftbox{
+	text-align: left;
+}
+.rightbox{
+	text-align: right;
+}
+
+.left{
+	text-align: left;
+	border-bottom: 2px solid black;
+}
+.right{
+	text-align: right;
+	border-bottom: 2px solid black;
+}
+
+.alignleft {
+  float: left;
+  border-right : 100px;
+  background:red;
+
+
+
+}
+.alignright {
+  float: right;
+  border-left: 100px;
+  background:red;
+}
+
+
+
+
+/* CSS rule for displaying images in a single line, centered, and with customized dimensions */
+img {
+	display: block;
+	margin: 0px auto;
+
+	width: 350px;
+	height: 300px;
+}
