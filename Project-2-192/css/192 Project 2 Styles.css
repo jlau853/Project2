@@ -1,4 +1,6 @@
-html {background-color: lightgrey}
+html {background-color: lightgrey;
+	background-image: linear-gradient(160deg, salmon, lemonchiffon);
+}
 #header-image {
 	height: 100%;
 	background-image: url("../images/overhead1.jpg");	
@@ -49,6 +51,7 @@ h1 {
 .description{
 	font-size: 500%;
 	color: black;
+	border-bottom: 3px solid black;
 }
 /* CSS rule for centering text inside a block element*/
 .center {
@@ -111,7 +114,7 @@ h2{
 
 }
 .thinkglobal{
-	text-align:left;
+	text-align:justify;
 	font-size: 110%;
 }
 .leftbox{
@@ -143,8 +146,10 @@ h2{
 }
 
 
-
-
+.bottomline{
+	border-bottom: 3px solid black
+	
+}
 
 
 
