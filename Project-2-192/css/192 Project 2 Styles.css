@@ -21,13 +21,11 @@ html {background-color: lightgrey;
 	padding: 0;
 	margin-top: 16px;
 	margin-right: 24px;
-	border: solid black;
-
-
-	
 }
-
-
+.searches{
+	list-style:none;
+	color: white;
+}
 
 h1 {
 	font-size: 700%;

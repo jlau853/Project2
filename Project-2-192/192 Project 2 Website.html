@@ -5,8 +5,15 @@
 	</head>
 	<body>
 			<div class = "searchbar">
-				<input type="text" placeholder="Search.." name="search">
+				<input type="text" placeholder="Search..." name="search">
+			<ul class = "searches">
+				<li><a >>>Sugested<<</a></li>
+				<li><a >Values In Work</a></li>
+				<li><a >Values in Internship</a></li>
+				<li><a >Thinking BIG</a></li>
+			</ul>
 			</div>
+
 	
 
 		<div id="header-image">
@@ -126,10 +133,15 @@
 			<div class = "bottomline">
 				<br><br>
 			</div>
-			<div><br><br>
-					<img class src="images/overhead.jpg">
+			<div>
+			<br><br>
+			<button type="button" onclick="enterColor()"><br>Bored?<br></button>
 			</div>
-			
+			<script>
+				function enterColor() {
+					document.body.style.backgroundColor = prompt("Enter a color:");
+						}
+			</script>
 
 
 			<style>
