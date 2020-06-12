@@ -39,12 +39,13 @@
 						<li><a >What is the work force like?</a></li>
 						<li><a >How on earth do I make a CV?</a></li>
 						<li><a >Is it worth getting two jobs?</a></li>
+						
 					</ul>
 				</nav>
+						<p>If you would like to find out more about this, click the button below to find out more! <br> <span id="dots"></span><span id="more">chek check is this working atm or is it not?</span></p>
+						<button onclick="readMore()" id="button">Read more</button>
 		
-				<p>
-					
-				</p>
+
 			</div>				
 			
 			<div class="rightbox">
@@ -56,8 +57,13 @@
 						<li><a >How can I get along with other better?</a></li>
 						<li><a >What are things about myself I can improve?</a></li>
 						<li><a >How do I manage my time wisely?</a></li>
+
 					</ul>
+
 				</nav>
+					<p>If you would like to find out more about this, click the button below to find out more! <br> <span id="dots2"></span><span id="more2">chek check is this working atm or is it not?</span></p>
+					<button onclick="readMore2()" id="button2">Read more</button>
+		
 			</div>	
 			
 			<div class="leftbox">
@@ -71,6 +77,8 @@
 						<li><a >What is something everyone needs?</a></li>
 					</ul>
 				</nav>
+					<p>If you would like to find out more about this, click the button below to find out more! <br> <span id="dots3"></span><span id="more3">chek check is this working atm or is it not?</span></p>
+					<button onclick="readMore3()" id="button3">Read more</button>
 			</div>	
 			
 			<div class="rightbox">
@@ -80,10 +88,12 @@
 					<ul class = "internship">
 						<li><a >Are you thinking about internship?</a></li>
 						<li><a >Not sure if you want to take an internship?</a></li>
-						<li><a >Take this short interhsip program if you want to explore different trades and in a short period of time.</a></li>
-			
+						<li><a >Take this short interhsip program if you want</a></li>
+						<li><a >to explore different trades and in a short period of time.</a></li>
 					</ul>
 				</nav>
+					<<p>If you would like to find out more about this, click the button below to find out more! <br> <span id="dots4"></span><span id="more4">chek check is this working atm or is it not?</span></p>
+					<button onclick="readMore4()" id="button4">Read more</button>
 			</div>	
 			
 			<div class="leftbox">
@@ -94,13 +104,108 @@
 						<li><a >Figured out what you want to do?</a></li>
 						<li><a >Well then this 2 year intership is for you!</a></li>
 						<li><a >Seek professional learning and get paid doing what you love today!</a></li>
-
 					</ul>
 				</nav>
+					<p>If you would like to find out more about this, click the button below to find out more! <br> <span id="dots5"></span><span id="more5">chek check is this working atm or is it not?</span></p>
+					<button onclick="readMore5()" id="button5">Read more</button>
 			</div>	
 			
 					<img class src="images/overhead.jpg">
 			
+			<style>
+				#more {display: none;}
+				#more2 {display: none;}
+				#more3 {display: none;}
+				#more4 {display: none;}
+				#more5 {display: none;}
+			</style>
+			
+			<script>
+				function readMore() {
+					let dots = document.getElementById("dots");
+					let moreText = document.getElementById("more");
+					let buttonText = document.getElementById("button");
+
+					if (dots.style.display === "none") {
+						dots.style.display = "inline";
+						buttonText.innerHTML = "Read more"; 
+						moreText.style.display = "none";
+					} else {
+						dots.style.display = "none";
+						buttonText.innerHTML = "Read less"; 
+						moreText.style.display = "inline";
+						}
+					}
+			</script>
+			
+				<script>
+				function readMore2() {
+					let dots = document.getElementById("dots2");
+					let moreText = document.getElementById("more2");
+					let buttonText = document.getElementById("button2");
+
+					if (dots.style.display === "none") {
+						dots.style.display = "inline";
+						buttonText.innerHTML = "Read more"; 
+						moreText.style.display = "none";
+					} else {
+						dots.style.display = "none";
+						buttonText.innerHTML = "Read less"; 
+						moreText.style.display = "inline";
+						}
+					}
+			</script>
+			<script>
+				function readMore3() {
+					let dots = document.getElementById("dots3");
+					let moreText = document.getElementById("more3");
+					let buttonText = document.getElementById("button3");
+
+					if (dots.style.display === "none") {
+						dots.style.display = "inline";
+						buttonText.innerHTML = "Read more"; 
+						moreText.style.display = "none";
+					} else {
+						dots.style.display = "none";
+						buttonText.innerHTML = "Read less"; 
+						moreText.style.display = "inline";
+						}
+					}
+			</script>
+			<script>
+				function readMore4() {
+					let dots = document.getElementById("dots4");
+					let moreText = document.getElementById("more4");
+					let buttonText = document.getElementById("button4");
+
+					if (dots.style.display === "none") {
+						dots.style.display = "inline";
+						buttonText.innerHTML = "Read more"; 
+						moreText.style.display = "none";
+					} else {
+						dots.style.display = "none";
+						buttonText.innerHTML = "Read less"; 
+						moreText.style.display = "inline";
+						}
+					}
+			</script>
+			<script>
+				function readMore5() {
+					let dots = document.getElementById("dots5");
+					let moreText = document.getElementById("more5");
+					let buttonText = document.getElementById("button5");
+
+					if (dots.style.display === "none") {
+						dots.style.display = "inline";
+						buttonText.innerHTML = "Read more"; 
+						moreText.style.display = "none";
+					} else {
+						dots.style.display = "none";
+						buttonText.innerHTML = "Read less"; 
+						moreText.style.display = "inline";
+						}
+					}
+			</script>
 			
 			
 		</div>

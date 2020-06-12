@@ -123,23 +123,23 @@ h2{
 
 .left1{
 	text-align: left;
-	border-bottom: 2px solid yellow;
+	border-bottom: 3px solid yellow;
 }
 .left2{
 	text-align: left;
-	border-bottom: 2px solid orange;
+	border-bottom: 3px solid orange;
 }
 .left3{
 	text-align: left;
-	border-bottom: 2px solid crimson;
+	border-bottom: 3px solid crimson;
 }
 .right{
 	text-align: right;
-	border-bottom: 2px solid coral;
+	border-bottom: 3px solid coral;
 }
 .right1{
 	text-align: right;
-	border-bottom: 2px solid mediumvioletred;
+	border-bottom: 3px solid mediumvioletred;
 }
 
 
